@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ed0c675-f9cf-4594-9fa7-32de966d11da" name="Default Changelist" comment="" />
+    <list default="true" id="8ed0c675-f9cf-4594-9fa7-32de966d11da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,16 +30,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;c3e35dc9-728e-46a0-9c10-de633e60d871&gt;/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,24 +52,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/face_img/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="1890">
               <caret line="126" column="12" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11">
+            <state relative-caret-position="70">
               <caret line="222" column="11" selection-start-line="222" selection-start-column="11" selection-end-line="222" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runtime.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -108,12 +107,13 @@
         <option value="$PROJECT_DIR$/face_img/wsgi.py" />
         <option value="$PROJECT_DIR$/face_img/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/runtime.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="745" />
-    <option name="y" value="272" />
+    <option name="x" value="1130" />
+    <option name="y" value="257" />
     <option name="width" value="859" />
     <option name="height" value="639" />
   </component>
@@ -130,11 +130,6 @@
           <expand>
             <path>
               <item name="face_img" type="b2602c69:ProjectViewProjectNode" />
-              <item name="face_img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="face_img" type="b2602c69:ProjectViewProjectNode" />
-              <item name="face_img" type="462c0819:PsiDirectoryNode" />
               <item name="face_img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -212,26 +207,28 @@
       <option name="presentableId" value="Default" />
       <updated>1571494305644</updated>
       <workItem from="1571494307000" duration="13179000" />
+      <workItem from="1571515441235" duration="282000" />
     </task>
+    <task id="LOCAL-00001" summary="rr">
+      <created>1571515580522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571515580522</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13179000" />
+    <option name="totallyTimeSpent" value="13461000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="530" y="330" width="686" height="510" extended-state="0" />
+    <frame x="904" y="206" width="687" height="511" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34504792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35725677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="manage.py@face_img" weight="0.5042493" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32804233" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.43386245" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" weight="0.3286119" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -239,16 +236,28 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" weight="0.18322147" />
-      <window_info anchor="right" id="SciView" weight="0.3295302" />
-      <window_info anchor="right" id="Database" weight="0.3295302" />
+      <window_info anchor="bottom" id="manage.py@face_img" order="7" weight="0.5042493" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="File Transfer" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.43271768" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="14" weight="0.32804233" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.18322147" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rr" />
+    <option name="LAST_COMMIT_MESSAGE" value="rr" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/face/apps.py">
@@ -335,16 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/face_img/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -352,6 +351,13 @@
           <folding>
             <element signature="e#224#233#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -364,15 +370,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/face_img/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="1890">
           <caret line="126" column="12" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
+        <state relative-caret-position="70">
           <caret line="222" column="11" selection-start-line="222" selection-start-column="11" selection-end-line="222" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
