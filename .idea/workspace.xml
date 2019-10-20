@@ -34,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="118">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+              <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -53,6 +53,7 @@
     <findStrings>
       <find>ana</find>
       <find>conda</find>
+      <find>clyent==1.2.2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,7 +184,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571494305644</updated>
       <workItem from="1571494307000" duration="13179000" />
-      <workItem from="1571515441235" duration="4111000" />
+      <workItem from="1571515441235" duration="4984000" />
     </task>
     <task id="LOCAL-00001" summary="rr">
       <created>1571515580522</created>
@@ -234,11 +235,32 @@
       <option name="project" value="LOCAL" />
       <updated>1571568404608</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="com">
+      <created>1571568613728</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571568613728</updated>
+    </task>
+    <task id="LOCAL-00009" summary="com">
+      <created>1571568718193</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571568718193</updated>
+    </task>
+    <task id="LOCAL-00010" summary="com">
+      <created>1571569576699</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571569576699</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17290000" />
+    <option name="totallyTimeSpent" value="18163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -429,7 +451,7 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
         </state>
       </provider>
     </entry>
