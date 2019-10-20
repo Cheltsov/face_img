@@ -1,4 +1,4 @@
-cmake==3.15.3
+cmake==3.13.3
 comtypes==1.1.7
 dlib==19.8.1
 pywin32==225
