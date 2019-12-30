@@ -30,7 +30,10 @@ def add_photos(request):
             form.save(commit=True)
             arr_photos = Photo.objects.all().reverse()[0]
 
-            num_evd_res = get_evklid(arr_photos)
+            url_img1 = arr_photos.img_1.path
+            url_img2 = arr_photos.img_2.path
+            num_evd_res = get_evklid(url_img1, url_img2)
+
             arr_photos.num_evd = num_evd_res
             arr_photos.save()
             if num_evd_res < 0.55:
@@ -47,10 +50,7 @@ def add_photos(request):
     else:
         return HttpResponse('no')
 
-def get_evklid(arr_photos):
-
-    url_img1 = arr_photos.img_1.path
-    url_img2 = arr_photos.img_2.path
+def get_evklid(url_img1, url_img2):
 
     sp = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
     facerec = dlib.face_recognition_model_v1('dlib_face_recognition_resnet_model_v1.dat')

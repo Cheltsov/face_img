@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Индентификация</h1>
+    {% if num == 1 %}
+        <H2>Верификация пройдена</H2>
+    {% else %}
+        <H2>Верификация не пройдена</H2>
+    {% endif %}
+
+    <div class="panel panel-lg panel-custom" style="display: flex; justify-content: space-around; align-items: center">
+        <div class="panel-heading post-heading1">
+            <img width="150" src="/media/{{ photo1 }}">
+        </div>
+        <div class="panel-heading post-heading1">
+            <img width="150" src="../{{ photo2 }}">
+        </div>
+    </div>
+</body>
+</html>
